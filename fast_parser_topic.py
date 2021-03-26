@@ -82,7 +82,7 @@ def get_data_html(html):
 
 
 def main():
-    with open(r'S:\Desktop\Обсуждения для моих услуг.txt', 'r', encoding='utf-8', errors='ignore') as fl:
+    with open(r'target_txt_file_with_topic_links', 'r', encoding='utf-8', errors='ignore') as fl:
         lists_topic = fl.readlines()
         s = 0
     for item_topic in lists_topic:
